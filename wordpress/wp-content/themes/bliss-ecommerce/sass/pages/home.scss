@@ -1,3 +1,11 @@
-h1 {
-  color: mediumaquamarine;
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient($highlight-color, $secondary-color);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }

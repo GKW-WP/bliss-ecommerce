@@ -37,7 +37,7 @@
 /*
 
 // Header container
-.header {}
+
 
 // Logo
 .logo {
@@ -51,6 +51,20 @@
 
 .logo-img {}
 */
+nav {
+  background-color: #8CD0E3;
+}
+
+.secondary-nav {
+  background-image: linear-gradient(to right, #F08CCD, #8CD0E3);
+  color: white;
+}
+
+.secondary-nav p {
+  padding: 0px;
+  margin: 0px;
+}
+
 /**
  * partials/footer
  * ---
@@ -114,8 +128,17 @@
   }
 }
 */
-h1 {
-  color: mediumaquamarine;
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient(#FBF6B5, #F08CCD);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

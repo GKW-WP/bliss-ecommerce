@@ -5,7 +5,7 @@
 /*
 
 // Header container
-.header {}
+
 
 // Logo
 .logo {
@@ -19,3 +19,15 @@
 
 .logo-img {}
 */
+nav {
+  background-color: $primary-color;
+}
+.secondary-nav {
+  background-image: linear-gradient(to right,$secondary-color, $primary-color);
+  color: white;
+}
+.secondary-nav p {
+  padding: 0px;
+  margin: 0px;
+}
+.header {}

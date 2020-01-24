@@ -24,13 +24,30 @@
 
 	</head>
 	<body <?php body_class(); ?>>
-
+		<nav class="secondary-nav justify-content-center text-center">
+			<p>Free U.S Shipping Over $40</p>
+		</nav>
+		<nav>
+			<div class="d-flex flex-row justify-content-between">
+				<div class=""><a href="#">Search</a> <a href="#">find us</a></div>
+				<div class=""><a href="#">Logo</a></div>
+				<div class=""><a href="#">sign in</a> <a href="#">bag</a></div>
+			</div>
+			<div class="d-flex flex-row justify-content-center">
+				<ul class="nav">
+					<li class="nav-link">item</li>
+					<li class="nav-link">item</li>
+					<li class="nav-link">item</li>
+					<li class="nav-link">item</li>
+				</ul>
+			</div>
+		</nav>
 		<!-- wrapper -->
 		<div class="wrapper">
 
 			<!-- header -->
 			<header class="header clear" role="banner">
-			
+
 				<!-- logo -->
 				<div class="logo">
 					<a href="<?php echo home_url(); ?>">
